@@ -7,4 +7,4 @@
 ![alt text](https://github.com/Medomane/Microservices-1/blob/master/Services.png?raw=true)
 
 ## Structure
-![alt text](https://github.com/Medomane/Microservices-1/blob/master/Structure.png?raw=true)
+![alt text](https://github.com/Medomane/Microservices-1/blob/master/Structure.PNG?raw=true)
