@@ -1,4 +1,4 @@
-# Microservices - Spring
+# Microservices - Spring Cloud
 
 ## MLD
 ![alt text](https://github.com/Medomane/Microservices-1/blob/master/MLD-TP1.png?raw=true)
