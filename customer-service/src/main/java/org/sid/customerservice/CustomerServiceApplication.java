@@ -9,6 +9,7 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 @SpringBootApplication
 public class CustomerServiceApplication implements CommandLineRunner {
+
     final CustomerRepository customerRepository;
     final RepositoryRestConfiguration configuration;
 
@@ -30,4 +31,5 @@ public class CustomerServiceApplication implements CommandLineRunner {
         customerRepository.save(new Customer(null,"Aymane","aymane@gmail.com"));
         customerRepository.save(new Customer(null,"Yasser","yasser@gmail.com"));
     }
+
 }

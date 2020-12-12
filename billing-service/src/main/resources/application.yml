@@ -3,9 +3,6 @@ server:
 spring:
   application:
     name: billing-service
-  cloud:
-    discovery:
-      enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/msdb-billing
     username: root
@@ -13,5 +10,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
-
 

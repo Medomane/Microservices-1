@@ -3,9 +3,6 @@ server:
 spring:
   application:
     name: inventory-service
-  cloud:
-    discovery:
-      enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/msdb-product
     username: root

@@ -1,5 +1,6 @@
 package org.sid.billingservice.Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,6 +20,7 @@ public class BillLine {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id ;
     private int quantity;
+    @JsonIgnore
     private Long productId;
     @Transient
     private Product product;
